@@ -52,8 +52,8 @@
             if (Length + 1 >= Capacity)
             {
                 if (Capacity == 0) Capacity = 1;
-                else Capacity *= 2; // double the size
-                Array.Copy(this.array, this.array, Capacity);
+                else Capacity = Capacity++; // incrementing the array
+                Array.Resize<T>(ref this.array, Capacity);
             }
             this.array[Length++] = elem;
         }
