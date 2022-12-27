@@ -7,7 +7,8 @@
             head = null;
         }
         private int size = 0;
-        private Node<T>? head, tail = null; 
+        private Node<T>? head = null;
+        private Node<T>? tail = null;
 
         public int Count()
         {
@@ -16,7 +17,8 @@
 
         public void Clear()
         {
-            this.head, tail = null;
+            this.head = null;
+            this.tail = null;
             this.size = 0;
         }
 
