@@ -32,7 +32,7 @@
                 head = tail = new Node<T>(elem, null, null);
             else
             {
-                
+                tail = new Node<T>(elem, tail, null);
             }
         }
 
