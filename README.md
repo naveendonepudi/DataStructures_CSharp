@@ -1,3 +1,3 @@
-# DataStructures_CSharp
+# DataStructures in CSharp
 
-# Learning purpose
+Trying to build Datastructure generic things from scratch
